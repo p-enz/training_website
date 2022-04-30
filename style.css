@@ -1,3 +1,68 @@
 * {
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  /*
+  https://colorhunt.co/palette/f5f5f5f0545430475e121212
+  F5F5F5
+  F05454
+  30475E
+  121212
+  */
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/*Behavior Header,navbar and inner a-tags*/
+header {
+  background-color: #30475e;
+  color: #f5f5f5;
+  max-width: 1000px;
+  margin: 5px auto;
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.navitems {
+  display: inline-block;
+  border: solid 0.5px;
+}
+header a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 0.5rem 1rem;
+
+  font-weight: bold;
+}
+header a:hover {
+  background-color: #f05454;
+  color: #30475e;
+  padding: 0.5rem 1rem;
+  border-style: outset;
+  border-color: #30475e;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/*Behavior main */
+main {
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+/* Behavior footer */
+footer {
+  max-width: 1000px;
+  margin: 1rem auto;
 }
